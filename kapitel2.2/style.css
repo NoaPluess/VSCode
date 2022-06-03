@@ -1,0 +1,23 @@
+.kontakt{
+    border: solid;
+    border-color: white;
+}
+#hello{
+    background-color: black;
+    color: yellow
+    ;
+}
+#hello2 {
+    border: dotted;
+    border-color: red;
+}
+#hello3{
+    color: green;
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
