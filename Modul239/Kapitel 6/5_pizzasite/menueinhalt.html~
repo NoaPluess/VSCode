@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Bella Italia Ristorante-Pizzeria</title>
+<link href="stile.css" type="text/css" rel="stylesheet" />
+</head>
+<body id="menuebody">
+	<h1><a href="index.html" target="_top">Home</a></h1>
+	<h1>Karte</h1>
+	<h2><a href="vorspeisen.html" target="_top">Vorspeisen</a></h2>
+	<h2><a href="salate.html" target="_top">Salate</a></h2>
+	<h2><a href="pizza.html" target="_top">Pizza</a></h2>
+	<h2><a href="ueberbacken.html" target="_top">Überbacken</a></h2>
+	<h2><a href="teigwaren.html" target="_top">Teigwaren</a></h2>
+	<h2><a href="spaghetti.html" target="_top">Spaghetti, <br />Gnocchi,<br /> Rigatoni</a></h2>
+	<h1>Bestellformular</h1>
+	<h1><a href="impressum.html" target="_top">Impressum</a></h1>
+</body>
+</html>
