@@ -1,0 +1,23 @@
+#inhaltbody
+{
+	background-color: lightskyblue;  
+}
+#kopfbody, #fussbody, #menuebody  
+{
+	background-color: silver;  	  	
+}
+#menuebody h1
+{
+	font-size: large;
+}
+#menuebody h2
+{
+	font-size: small;
+}
+
+
+
+
+
+
+

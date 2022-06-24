@@ -1,0 +1,76 @@
+body {
+	background-color: lightgray;
+	font-family: arial, helvetica, sans-serif;
+}
+#inhaltbody
+{
+	background-color: lightskyblue;  
+}
+#kopfbody {
+text-align: center;
+font-size: x-large;
+font-weight: bold;
+padding-top: 10px;
+}
+#fussbody {
+text-align: center;
+font-size:  large;
+}
+#kopfbody, #fussbody, #menuebody  
+{
+	background-color: silver;  	  	
+}
+#menuebody h1
+{
+	font-size: large;
+}
+#menuebody h2
+{
+	font-size: small;
+	padding-left: 10px;
+}
+#webseite {
+	width:  975px;
+	height: 630px;
+	margin: 0 auto;
+}
+#kopf{
+	width:  975px;
+	height: 100px;
+}
+#menue{
+	width:  175px;
+	height: 450px;
+	margin-top: 10px;
+	margin-bottom: 10px;	
+	float:left;
+}
+#inhalt{
+	width:  790px;
+	height: 450px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float:right;
+}	
+#fuss{
+	width:  975px;
+	height: 60px;
+	clear: both;
+}	
+object{
+	width: 100%;
+	height: 100%;
+	border-style: solid;
+	border-color: whitesmoke; 
+}
+
+
+
+
+
+
+
+
+
+
+

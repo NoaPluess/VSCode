@@ -1,0 +1,100 @@
+/* eigene Stilklassen */
+.grossertext {
+	font-size: xx-large;
+	font-weight: bolder;
+}
+
+/*zum Entwickeln Tabellen mit Rahmen versehen, der dann in der Endfassung ausgeschaltet wird. */
+
+table{
+	border-style: none;
+	border-width: 1px; 
+	border-color: red;
+}
+td {
+	border-style: none;
+	border-width: 1px; 
+	border-color: red;
+}
+
+
+/* Aussehen der Seiten */
+#kopfbody{
+	background-color: orange;
+}
+#kopfbody table{
+	width: 100%;
+	height: 100%
+}
+#menuebody{
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: yellow;
+}
+#menuebody table {
+	width: 100%;
+	height: 100%;
+}
+
+#menuebody a:link, #menuebody a:visited {
+	color: black;
+}
+
+#inhaltbody{
+	background-color: lightpink;
+}
+#inhaltbody a:link, #inhaltbody a:visited{
+	color: white;
+}
+
+#fussbody {
+	background-color: orange;
+}
+#fussbody table{
+	width:100%;
+	heigth:100%;
+}
+#fussbody a:link, #fussbody a:visited{
+	color: white;
+}
+/* Struktur der Website */
+body {
+	background-color: black;
+	color: white;	
+	text-align: center;
+	font-family: arial, helvetica, sans-serif;
+}
+#webseite {
+	width: 975px;
+	margin: 0 auto;
+	border-style: solid;
+	border-color: white;	
+}
+#kopf{
+	width: 975px;
+	height: 100px;
+}
+#menue{
+ 	width:  975px;
+	height: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#inhalt{	
+	width:  975px;
+	height: 400px;
+}
+#fuss{
+	margin-top: 10px;	
+	width:  975px;
+	height: 50px;
+	clear: both;
+}
+object{
+	width: 100%;
+	height: 100%;
+	background-color: grey;
+}
+
+
+

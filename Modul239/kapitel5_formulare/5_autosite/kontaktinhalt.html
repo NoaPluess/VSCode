@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="autostyles.css" type="text/css" rel="stylesheet" />
+<meta charset="utf-8" />
+<title>Kontakt</title>
+</head>
+<body id="inhaltbody">
+	<h1>Kontakt zum Autohaus Rapido</h1>
+	
+	<form action="http://de.selfhtml.org/cgi-bin/comments.pl">
+	
+		<p><label>Vorname:</label><br />
+			<input type="text" name="vorname"  size="30" maxlength="50" />
+		</p>
+		<p><label>Nachname:</label><br />
+			<input type="text" name="nachname"  size="30" maxlength="50" />
+		</p>
+		<p><label>E-Mail:</label><br />
+			<input type="email" name="email" size="30" />		
+		</p>
+		<p><label>Telefon:</label><br />
+			<input type="tel" name="telefon" size="30" />		
+		</p>		
+		<p><label>Mein Anliegen:</label><br />
+			<input type="checkbox" name="interesse1" value="probefahrt" />Terminvereinbarung zu einer Probefahrt<br />
+			<input type="checkbox" name="interesse2" value="werkstatttermin" />Einen Werkstatttermin vereinbaren<br />
+			<input type="checkbox" name="interesse3" value="Rückruf" />Ich bitte um Rückruf<br />
+		</p>								
+		<p><label>Anmerkungen:</label><br />
+			<textarea name="anmerkung" rows="3" cols="20"></textarea></p>
+		<p><input type="reset" name="reset" value="Reset" />
+			<input type="submit" name="absenden" value="Absenden" /></p>	
+	</form>
+</body>
+</html>

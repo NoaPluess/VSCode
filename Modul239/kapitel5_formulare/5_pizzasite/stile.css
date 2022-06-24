@@ -1,0 +1,72 @@
+body {
+	background-color: lightgreen;
+	font-family: courier, fixed, monospace;}
+table
+{	border-collapse: collapse; 
+   border: 1px solid blue;
+}
+td{border: 1px solid blue;
+   padding:3px;
+   text-align: center }
+#kopfbody
+	{	background-color: darkgreen;	}
+#kopfbody h1
+	{color: white;
+	font-size: x-large;
+	padding-top: 20px;}
+#inhaltbody
+	{background-color: lightpink;}
+#menuebody
+{  background-color: whitesmoke;}
+#menuebody h1{
+	 font-size: larger;	}
+#menuebody h2
+{	font-size: medium;
+		padding-left: 5px;}
+	
+/*Struktur der Webseite*/
+#webseite {
+	width:  975px;
+	height: 640px;
+	margin: 0 auto;
+}
+#kopf
+{
+	width:  975px;
+	height: 100px;
+}
+#menue{
+	width:  180px;
+	height: 460px;	
+    margin-top: 5px; 
+	margin-bottom: 5px;
+	float:left;
+}
+#inhalt{
+	width:  790px;
+	height: 460px;
+	margin-top: 5px; 
+	margin-bottom: 5px;
+	float:right;
+}	
+#fuss{
+ font-size: smaller;	
+	width:  975px;
+	height: 70px;
+	clear:  both;
+}
+object{
+	width: 100%;
+	height: 100%;
+	border-style: solid;
+ border-color: white;	
+	border-width: 1px;
+	 
+}
+
+
+
+
+
+
+
